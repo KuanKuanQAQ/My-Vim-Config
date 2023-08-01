@@ -1,0 +1,36 @@
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+call plug#end()
+
+" ====tab设置
+set tabstop=4
+set softtabstop=4
+set expandtab
+set shiftwidth=4
+" ====
+
+set noignorecase
+
+" ====缩进设置方案
+set ai
+set si "自动缩进
+" ====
+
+" 退格键设置
+set backspace=indent,eol,start
+
+" ====设置颜色方案
+colorscheme molokai
+" =====
+
+set nu
+
+" ====断行设置
+set lbr
+" =====
+
+" ==== NERDTree 设置
+map <C-n> :NERDTreeToggle<CR>
+" ====
+
