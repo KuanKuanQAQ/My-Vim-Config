@@ -34,3 +34,6 @@ set lbr
 map <C-n> :NERDTreeToggle<CR>
 " ====
 
+" ==== 设置颜色编码位数
+set t_Co=16
+" ====:wq
