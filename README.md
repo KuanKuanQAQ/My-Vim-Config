@@ -2,10 +2,9 @@
 
 ## 0. 安装
 
-1. 进入 Home 目录 `cd ~`
-2. 执行 `git clone https://github.com/KuanKuanQAQ/My-Vim-Config.git ~/.vim`
-3. 复制 vim 配置文件 `cp ~/.vim/.vimrc.example ~/.vimrc`
-4. 打开 vim，执行命令 `:PlugInstall`
+1. 执行 `git clone git@github.com:KuanKuanQAQ/My-Vim-Config.git ~/.vim`
+2. 复制 vim 配置文件 `cp ~/.vim/.vimrc.example ~/.vimrc`
+3. 打开 vim，执行命令 `:PlugInstall`
 
 ## 1. 关于插件
 
